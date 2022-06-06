@@ -107,7 +107,7 @@ footer {
   justify-content: center;
 }
 
-#articleAbout {
+#articleAboutme {
   height: 65%;
   width: 75%;
   display: flex;
@@ -128,7 +128,7 @@ footer {
   padding-bottom: 15px;
 }
 
-#aboutmain {
+#aboutmemain {
   height: 80%;
 }
 
