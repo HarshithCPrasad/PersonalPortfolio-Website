@@ -36,34 +36,37 @@
       </div>
     </nav>
   </header>
-  <main id="contactmain">
-    <article id="contactmsg">
-      <h1>contact me at:</h1>
-      <p> harshithprasad998@gmail.com</p>
+  <main>
+    <article id="contactArticle">
+      <p id="contactMsg"> You can contact me by filling this form</p>
+      <form id="myform">
+        <label for="username">
+          Your Name:
+          <input id="username" type="text" name="username">
+        </label>
+        <label for="email">
+          Your Email:
+          <input id="email" type="userEmail" name="userEmai"></label>
+        <label for="message">
+          <div>Your message:</div>
+          <input type="text" id="userMsg" name="userMsg">
+        </label>
+        
 
+        </div>
+        <button id="submitbtn" type="submit">
+          submit</button>
+      </form>
     </article>
-
-    <form id="myform" action="harshithprasad998@gmail.com" method="get">
-      <div><label for="username">Your Name:
-          <input id="username" type="text" name="YourName"></label>
-      </div>
-      <div><label for="email">Your Email:
-          <input id="email" type="email" name="YourEmail"></label>
-      </div>
-      <div><label for="message">Your message:</label>
-        <textarea id="message" name="Yourmeassage">
-
-      </div>
-      <button id="submitbtn" type="submit">
-        submit</button>
-    </form>
   </main>
   <footer>
-    <h3>
-      created by Harshith C Prasad
-      2022&copy
-    </h3>
+    <article id="footermsg">
+      <p>
+        created by Harshith C Prasad
+        2022&copy
+      </p>
 
+    </article>
   </footer>
 
 
