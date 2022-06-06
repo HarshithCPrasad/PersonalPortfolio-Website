@@ -29,11 +29,6 @@
           About
         </a>
       </div>
-      <div id="education">
-        <a href="./education.html" id="educationLink">
-          Education
-        </a>
-      </div>
       <div id="contact">
         <a href="./contact.html" id="contactLink">
           Contact
@@ -41,21 +36,26 @@
       </div>
     </nav>
   </header>
-  <main>
-    <h1>contact me at:</h1>
-    <p> harshithprasad998@gmail.com</p>
-    <p>99xxxxxxxx</p>
-    <p>here!!</p>
-    <hr size="1" noshade>
-    </td>
-    <form action="mailto:momokaji101@gmail.com" method="post" enctype="text/plain">
-      <label for="">Your Name:</label>
-      <input type="text" name="YourName"><br>
-      <label>Your Email:</label>
-      <input type="email" name="Youremail"><br>
-      <label for="">Your message:</label>
-      <textarea name="Yourmeassage" rows="10" cols="20"></textarea><br>
-      <input type="submit">
+  <main id="contactmain">
+    <article id="contactmsg">
+      <h1>contact me at:</h1>
+      <p> harshithprasad998@gmail.com</p>
+
+    </article>
+
+    <form id="myform" action="harshithprasad998@gmail.com" method="get">
+      <div><label for="username">Your Name:
+          <input id="username" type="text" name="YourName"></label>
+      </div>
+      <div><label for="email">Your Email:
+          <input id="email" type="email" name="YourEmail"></label>
+      </div>
+      <div><label for="message">Your message:</label>
+        <textarea id="message" name="Yourmeassage">
+
+      </div>
+      <button id="submitbtn" type="submit">
+        submit</button>
     </form>
   </main>
   <footer>

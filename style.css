@@ -12,12 +12,20 @@ body{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
 a{
   text-decoration: none;
   color:inherit;
   cursor: pointer;
+}
+button{
+  font-size: inherit;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+button:active{
+  border: 1px solid grey;
 }
 header{
   background-color: #000000;
@@ -50,12 +58,13 @@ nav{
 
 }
 main{
-
+  height: 80%;
   width: 80%;
   display: flex;
   flex-direction: column;
 
 }
+
 footer{
   padding: 10px;
   width: 100%;
@@ -73,5 +82,28 @@ footer{
 }
 #aboutmain{
   height: 80%;
+}
+#contactmain{
+  height: 69%;
+  justify-content: space-evenly;
+}
+#myform{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5em;
 
+}
+#myform div{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  width: 100%;
+}
+#myform input{
+  width: 70%;
+  padding: 3px;
+  border: none;
+  font-size: inherit;
 }
